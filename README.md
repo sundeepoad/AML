@@ -1,6 +1,6 @@
 # 💰 Money Laundering Detection with XGBoost
 
-This project focuses on detecting potential money laundering activities using machine learning. The dataset contains transactional data, and we use feature engineering, balancing techniques, and XGBoost to classify suspicious (laundering) vs. non-suspicious transactions.
+This project focuses on detecting potential money laundering activities using machine learning. The dataset contains transactional data, and I used feature engineering, balancing techniques, and XGBoost to classify suspicious trasactions.
 
 ## 🚀 Project Highlights
 
@@ -22,14 +22,13 @@ This project focuses on detecting potential money laundering activities using ma
 - XGBoost
 
 ## 📂 Dataset
-
+Source: "IBM Transactions for Anti Money Laundering (AML)" Kaggle
 - File: `LI-Small_Trans.csv`
 - Key Columns:
   - `Timestamp`: Date and time of transaction
   - `Amount Paid`
   - `Payment Currency`, `Receiving Currency`, `Payment Format`
   - `Is Laundering`: Target label
-
 
 
 ## 📊 Model Results
